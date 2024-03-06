@@ -1,4 +1,4 @@
-# Fetch Menu Data Script
+# Swiggy API Script
 
 This script fetches menu data from a JSON file obtained from a Swiggy API response and saves it to a CSV file.
 
