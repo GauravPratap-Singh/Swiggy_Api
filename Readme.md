@@ -2,9 +2,13 @@
 
 This script fetches menu data from a JSON file obtained from a Swiggy API response and saves it to a CSV file.
 
+#{Note, there are two scripts "working.py" and "original.py", please use working.py file and not original.py}
+#(original.py file contain the code how the program should run but not able to find the swiggy api documentation)
+#(working.py file is directly using the json file of swiggy API, not any request module)
+
 ### Instructions to Run the Script:
 1. Make sure you have Python installed on your system.
-2. Please do create the virtual environment on mac by running:
+2. Please create the virtual environment on Mac by running:
         ## Create a virtual environment named 'venv'
         python3 -m venv venv
 
