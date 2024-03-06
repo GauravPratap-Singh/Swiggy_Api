@@ -49,9 +49,9 @@ def load_json(json_path):
 if __name__ == "__main__":
 
     # Loading the json file containg swiggy api content in json
-    json_path = 'res3.json'
+    json_path = 'res2.json'
     if os.path.exists(json_path):
-        json_data = load_json('res3.json')
+        json_data = load_json(json_path)
         # Extracting the menu detail from the json file
         if json_data:
             menu_data = fetch_dish_info(json_data)
