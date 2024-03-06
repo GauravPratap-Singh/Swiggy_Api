@@ -22,7 +22,7 @@ This script fetches menu data from a JSON file obtained from a Swiggy API respon
         venv\Scripts\activate
 3. Install the required packages by running: `pip install -r requirements.txt`.
 4. Place the JSON file containing the Swiggy API response in the same directory as the script.
-5. Run the script using the command: `python fetch_menu_data.py`.
+5. Run the script using the command: `python3 working_code.py`.
 
 ### Script Functionality:
 - The script loads the JSON file containing Swiggy API content.
